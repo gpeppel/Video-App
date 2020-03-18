@@ -1,0 +1,226 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #cccccc;
+}
+
+@font-face {
+    font-family: "Greggiefont";
+    src: url("http://myserver/fonts/greggiefont-webfont.eot");
+    src: url("http://myserver/fonts/greggiefont-webfont.woff") format("woff"),
+        url("http://myserver/fonts/greggiefont-webfont.otf") format("opentype"),
+        url("http://myserver/fonts/greggiefont-webfont.svg") format("svg");
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.container {
+    width: 1025px;
+}
+
+.badge:empty {
+    display: inline-flex;
+    vertical-align: middle;
+    border-style: none;
+    padding-bottom: 40px;
+    margin-top: -20px;
+}
+
+.form-login .checkbox {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    font-family: 'Greggiefont';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 28px;
+    color: white;
+    font-family: 'Greggiefont';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.form-control:focus {
+    border-color: #f4d27a;
+    box-shadow: inset 0 .5px .5px rgba(0, 0, 0, 0.050), 0 0 6px rgba(247, 196, 67, 1);
+}
+
+.btn-primary:hover {
+    background-color: #cccccc !important;
+}
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    top: -10px;
+    *overflow: hidden;
+}
+
+input::placeholder {
+    font-size: 20px;
+    color: grey;
+    font-family: 'Greggiefont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h3 {
+    font-size: 40px;
+    font-family: 'Greggiefont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #eeeeee;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #f7c443;
+    border-color: #f7c443;
+}
+
+.vertical-center {
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+    /* align the inline(-block) elements horizontally */
+}
+
+.vertical-center:before {
+    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.vertical-center>.container {
+    max-width: 100%;
+
+    display: inline-block;
+    vertical-align: middle;
+    /* vertical alignment of the inline element */
+}
+
+.login-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 200px;
+}
+
+.jumbotron {
+    background-color: #3f3f3f;
+    min-height: 485px;
+    min-width: 385px;
+    /*display: inline-flex;
+    justify-content: center;
+    margin: 10px 10px 10px 350px;*/
+}
+
+.mt-5 {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: center;
+    position: relative;
+    top: -10px;
+    *overflow: hidden;
+}
+
+.form-login {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.jumbotron:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .5);
+}
+
+.jumbotron:hover>.panel-footer-landing {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1) inset;
+    -webkit-transition: all .3s ease;
+}
+
+.form-login .checkbox {
+    font-weight: 400;
+}
+
+.form-login .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.text-muted {
+    font-size: 18px;
+    font-family: 'Greggiefont', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #eeeeee;
+}
+
+.form-login .form-control:focus {
+    z-index: 2;
+}
+
+.form-login input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
